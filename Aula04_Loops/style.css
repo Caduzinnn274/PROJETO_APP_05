@@ -1,0 +1,33 @@
+
+
+body{
+    background-color: gray;
+    color: white;
+    cursor: crosshair;
+}
+
+h1{
+    text-align: center;
+    border: 3px;
+}
+
+.lista{
+    list-style: none;
+    text-align: center;
+    cursor: crosshair;
+}
+
+.pedir{
+    text-align: center;
+    cursor: crosshair;
+    
+}
+
+button{
+    width: 125px;
+    height: 25px;
+    border-color: black;
+    border-radius: 25px;
+    cursor: pointer;
+    cursor: crosshair;
+}
