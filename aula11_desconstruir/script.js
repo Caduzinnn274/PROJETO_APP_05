@@ -24,4 +24,13 @@ console.log(empresa);
 
 
 let nomes = ['Aparicio', 'Bernadete', 'Crimilda'];
-console.log(nomes)
+console.log(nomes);
+console.log(nomes[2]);
+
+let{0:priNome, 1:segNome, 2:tecNome}=nomes ;
+console.log(priNome); 
+
+let[nomeA, nomeB, nomeC] = nomes;
+console.log(nomeA);  //Aparicio
+console.log(nomeB);  //Bernadete
+console.log(nomeC);  //Crimilda
